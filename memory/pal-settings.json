@@ -1,0 +1,31 @@
+{
+  "identity": {
+    "ai": {
+      "name": "R2",
+      "fullName": "R2 — Personal AI",
+      "displayName": "R2",
+      "catchphrase": "R2D2"
+    },
+    "principal": {
+      "name": "bakos",
+      "timezone": "GMT+2"
+    }
+  },
+  "loadAtStartup": {
+    "_docs": "Files force-loaded into session context at startup. Injected as <system-reminder> blocks.",
+    "files": []
+  },
+  "dynamicContext": {
+    "_docs": "Dynamic context sections injected at session start. Set to false to disable.",
+    "wisdom": true,
+    "opinions": true,
+    "relationship": true,
+    "learningDigest": true,
+    "failurePatterns": true,
+    "projectHistory": true,
+    "projects": true,
+    "sessionIntelligence": true,
+    "handoff": true,
+    "selfModel": true
+  }
+}

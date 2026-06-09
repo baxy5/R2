@@ -1,0 +1,348 @@
+{
+  "generated": "2026-06-09T11:48:15.546Z",
+  "totalSkills": 23,
+  "skills": {
+    "analyze-pdf": {
+      "name": "analyze-pdf",
+      "description": "Download and analyze PDF files from URLs or local paths — extract text, answer questions, summarize content. Use when analyzing, reading, or extracting information from a PDF.",
+      "triggers": [
+        "analyzing",
+        "reading",
+        "extracting",
+        "information",
+        "analyze",
+        "pdf",
+        "extract",
+        "summarize"
+      ]
+    },
+    "analyze-youtube": {
+      "name": "analyze-youtube",
+      "description": "Analyze YouTube videos using Gemini's native video understanding — summarize, extract insights, answer questions. Use when analyzing, summarizing, or extracting information from a YouTube video.",
+      "triggers": [
+        "analyzing",
+        "summarizing",
+        "extracting",
+        "information",
+        "youtube",
+        "video",
+        "analyze",
+        "summarize",
+        "extract"
+      ]
+    },
+    "consulting-report": {
+      "name": "consulting-report",
+      "description": "Build a beautifully-typeset consulting-report PDF from a typed data file and a React layout. Use when generating an assessment, strategic review, operational readiness check, or any McKinsey-style consulting deliverable as a PDF.",
+      "triggers": [
+        "generating",
+        "assessment",
+        "strategic",
+        "review",
+        "operational",
+        "readiness",
+        "check",
+        "mckinsey-style",
+        "consulting",
+        "deliverable",
+        "pdf"
+      ]
+    },
+    "council": {
+      "name": "council",
+      "description": "Multi-perspective parallel debate on a decision — 3-5 independent perspectives argue in parallel, then synthesize into a verdict. Use when debating, weighing options, or needing multiple viewpoints on a question.",
+      "triggers": [
+        "debating",
+        "weighing",
+        "options",
+        "needing",
+        "multiple",
+        "viewpoints",
+        "question",
+        "debate"
+      ]
+    },
+    "create-pdf": {
+      "name": "create-pdf",
+      "description": "Convert markdown files into a styled PDF. Use when creating a PDF from existing markdown files, combining markdown into a report, or converting .md to .pdf.",
+      "triggers": [
+        "creating",
+        "existing",
+        "markdown",
+        "files",
+        "combining",
+        "into",
+        "report",
+        "converting",
+        "pdf"
+      ]
+    },
+    "create-skill": {
+      "name": "create-skill",
+      "description": "Create a new personal skill for this user, scaffolded into their own ~/.pal/skills/ and linked into every installed agent. Use when the user asks to create a skill, add a capability, build a custom command, or \"make a skill that…\".",
+      "triggers": [
+        "user",
+        "asks",
+        "create",
+        "skill",
+        "capability",
+        "build",
+        "custom",
+        "command",
+        "\"make",
+        "that…\""
+      ]
+    },
+    "entities": {
+      "name": "entities",
+      "description": "Maintain the personal knowledge graph of people and companies. Detect named entities in any content (article, video, paste, conversation), upsert them to ~/.pal/memory/knowledge/, and surface what's already known. Use proactively whenever named entities appear — don't wait to be asked.",
+      "triggers": []
+    },
+    "extract-wisdom": {
+      "name": "extract-wisdom",
+      "description": "Extract structured insights from content (articles, videos, podcasts). Use when extracting wisdom, key takeaways, or structured insights from any content.",
+      "triggers": [
+        "extracting",
+        "wisdom",
+        "takeaways",
+        "structured",
+        "insights",
+        "content",
+        "extract"
+      ]
+    },
+    "first-principles": {
+      "name": "first-principles",
+      "description": "Break down a problem to its fundamental constraints and build up a solution. Use when decomposing complexity, challenging assumptions, or finding root causes.",
+      "triggers": [
+        "decomposing",
+        "complexity",
+        "challenging",
+        "assumptions",
+        "finding",
+        "root",
+        "causes"
+      ]
+    },
+    "frontend-design": {
+      "name": "frontend-design",
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+      "triggers": [
+        "create",
+        "skill"
+      ]
+    },
+    "fyzz-chat-api": {
+      "name": "fyzz-chat-api",
+      "description": "Query Fyzz Chat conversations and projects via the REST API. Use when looking up conversations, searching chat history, or listing projects in Fyzz Chat.",
+      "triggers": [
+        "looking",
+        "conversations",
+        "searching",
+        "chat",
+        "history",
+        "listing",
+        "projects",
+        "fyzz"
+      ]
+    },
+    "opinion": {
+      "name": "opinion",
+      "description": "Opinion tracker for relationship notes. PROACTIVE: When the user confirms a preference ('yes exactly', 'keep doing that'), contradicts one ('no, don't do that', 'stop'), or you observe a recurring behavioral pattern — invoke this to update opinion confidence.",
+      "triggers": [
+        "opinion"
+      ]
+    },
+    "pal-analyze": {
+      "name": "pal-analyze",
+      "description": "Run learning analysis — surface rating trends, recurring failure patterns, and graduation candidates. Use when learning analysis is due, or when the user asks about performance patterns, low ratings, or what to improve.",
+      "triggers": [
+        "learning",
+        "analysis",
+        "user",
+        "asks",
+        "performance",
+        "patterns",
+        "ratings",
+        "what",
+        "improve"
+      ]
+    },
+    "pal-reflect": {
+      "name": "pal-reflect",
+      "description": "Run relationship reflect — promote recurring behavioral observations into tracked opinions. Use when relationship reflect is due, or when the user asks to review what patterns have been observed.",
+      "triggers": [
+        "relationship",
+        "reflect",
+        "user",
+        "asks",
+        "review",
+        "what",
+        "patterns",
+        "have",
+        "been",
+        "observed"
+      ]
+    },
+    "playwright": {
+      "name": "playwright",
+      "description": "Capture a screenshot of a URL or local page and load it into context for a visual check. Use when asked to check visually, use playwright, screenshot a page, see or look at the design yourself, or verify a layout on desktop and mobile widths.",
+      "triggers": [
+        "asked",
+        "check",
+        "visually",
+        "playwright",
+        "screenshot",
+        "page",
+        "look",
+        "design",
+        "yourself",
+        "verify",
+        "layout",
+        "desktop",
+        "mobile",
+        "widths"
+      ]
+    },
+    "presentation": {
+      "name": "presentation",
+      "description": "Build branded HTML presentations from markdown using Reveal.js. Multi-template registry per user (each template = brand color, logo, fonts, footer, aspect). Per-deck workflow: scaffold → edit one markdown file per slide in slides/ → build → present. Output: a `<deck-name>/` subdir with a self-contained HTML and a concatenated markdown sibling. 14 layouts including data-display patterns (big-stat, metric-grid). Use when creating slide decks, talks, workshop slides, lectures, or pitch decks.",
+      "triggers": [
+        "creating",
+        "slide",
+        "decks",
+        "talks",
+        "workshop",
+        "slides",
+        "lectures",
+        "pitch"
+      ]
+    },
+    "projects": {
+      "name": "projects",
+      "description": "Project context management. PROACTIVE — use when the user references a project (by name or as \"this repo\", \"current work\"), asks to add/update/complete a project, says \"store under <project>\", \"track this\", \"what am I working on\", \"my projects\", \"my priorities\".",
+      "triggers": [
+        "user",
+        "references",
+        "project",
+        "name",
+        "\"this",
+        "repo\"",
+        "\"current",
+        "work\")",
+        "asks",
+        "add/update/complete",
+        "says",
+        "\"store",
+        "under",
+        "<project>\"",
+        "\"track",
+        "this\"",
+        "\"what",
+        "working",
+        "projects\"",
+        "priorities\"",
+        "projects"
+      ]
+    },
+    "reflect": {
+      "name": "reflect",
+      "description": "Diagnose why a PAL behavior did not trigger as expected — trace hooks, instructions, and logic to find the gap. Use when a hook, skill, or automation didn't fire or behaved unexpectedly.",
+      "triggers": [
+        "hook",
+        "skill",
+        "automation",
+        "didn't",
+        "fire",
+        "behaved",
+        "unexpectedly"
+      ]
+    },
+    "research": {
+      "name": "research",
+      "description": "Multi-agent parallel research — quick/standard/extensive modes with specialized researcher agents for depth, breadth, and verification. Use when researching a topic, finding information, or investigating something thoroughly.",
+      "triggers": [
+        "researching",
+        "topic",
+        "finding",
+        "information",
+        "investigating",
+        "something",
+        "thoroughly",
+        "research"
+      ]
+    },
+    "review": {
+      "name": "review",
+      "description": "Security-focused code review with severity ratings. Use when reviewing code for security issues, vulnerabilities, or OWASP concerns.",
+      "triggers": [
+        "reviewing",
+        "code",
+        "security",
+        "issues",
+        "vulnerabilities",
+        "owasp",
+        "concerns",
+        "review"
+      ]
+    },
+    "summarize": {
+      "name": "summarize",
+      "description": "Structured summarization of documents, URLs, or conversations. Use when summarizing content, creating overviews, or distilling key points.",
+      "triggers": [
+        "summarizing",
+        "content",
+        "creating",
+        "overviews",
+        "distilling",
+        "points"
+      ]
+    },
+    "telos": {
+      "name": "telos",
+      "description": "Personal context management. Use when discussing goals, beliefs, challenges, identity, updating telos, life context, changing a goal, what do I believe, current obstacles, mission, or strategies.",
+      "triggers": [
+        "discussing",
+        "goals",
+        "beliefs",
+        "challenges",
+        "identity",
+        "updating",
+        "telos",
+        "life",
+        "context",
+        "changing",
+        "goal",
+        "what",
+        "believe",
+        "current",
+        "obstacles",
+        "mission",
+        "strategies"
+      ]
+    },
+    "think": {
+      "name": "think",
+      "description": "Thinking mode router — selects the right analytical approach for a question. Use when thinking through a problem, analyzing deeply, brainstorming ideas, debating options, decomposing to root cause, challenging assumptions, or exploring from multiple perspectives.",
+      "triggers": [
+        "thinking",
+        "through",
+        "problem",
+        "analyzing",
+        "deeply",
+        "brainstorming",
+        "ideas",
+        "debating",
+        "options",
+        "decomposing",
+        "root",
+        "cause",
+        "challenging",
+        "assumptions",
+        "exploring",
+        "multiple",
+        "perspectives"
+      ]
+    }
+  }
+}
