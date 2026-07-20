@@ -27,5 +27,9 @@
     "sessionIntelligence": true,
     "handoff": true,
     "selfModel": true
+  },
+  "attribution": {
+    "enabled": true,
+    "decided": true
   }
 }

@@ -1,0 +1,20 @@
+{
+  "lastReflect": "",
+  "opinions": [
+    {
+      "id": "do-not-add-explanatory-comments-to",
+      "statement": "Do not add explanatory comments to code edits unless explicitly asked",
+      "confidence": 0.6,
+      "category": "technical",
+      "evidence": [
+        {
+          "date": "2026-06-25",
+          "type": "supporting",
+          "source": "manual add"
+        }
+      ],
+      "created": "2026-06-25",
+      "updated": "2026-06-25"
+    }
+  ]
+}
